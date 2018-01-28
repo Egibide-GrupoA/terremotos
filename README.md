@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Egibide-GrupoA/terremotos.svg?branch=master)](https://travis-ci.org/Egibide-GrupoA/terremotos)
+
 # Qué queremos que haga 
 - Mostrar en la pantalla inicial en un mapa y una lista los últimos terremotos
 - Mostrar los últimos terremotos ocurridos en una lista
