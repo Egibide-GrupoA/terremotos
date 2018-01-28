@@ -2,7 +2,8 @@
 //  ViewController.swift
 //  terremotos
 //
-//  Created by  on 18/1/18.
+//  Created by Asier on 28/1/18.
+//  Copyright © 2018 grupoA. All rights reserved.
 //
 
 import UIKit

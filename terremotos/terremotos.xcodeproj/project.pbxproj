@@ -7,25 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C1089FAD201132C1000DDB5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1089FAC201132C1000DDB5B /* AppDelegate.swift */; };
-		C1089FAF201132C1000DDB5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1089FAE201132C1000DDB5B /* ViewController.swift */; };
-		C1089FB2201132C1000DDB5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1089FB0201132C1000DDB5B /* Main.storyboard */; };
-		C1089FB4201132C1000DDB5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1089FB3201132C1000DDB5B /* Assets.xcassets */; };
-		C1089FB7201132C1000DDB5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1089FB5201132C1000DDB5B /* LaunchScreen.storyboard */; };
+		71343407201E131F0038C742 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71343406201E131F0038C742 /* AppDelegate.swift */; };
+		71343409201E131F0038C742 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71343408201E131F0038C742 /* ViewController.swift */; };
+		7134340C201E131F0038C742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7134340A201E131F0038C742 /* Main.storyboard */; };
+		7134340E201E131F0038C742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7134340D201E131F0038C742 /* Assets.xcassets */; };
+		71343411201E131F0038C742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7134340F201E131F0038C742 /* LaunchScreen.storyboard */; };
+		7134341C201E131F0038C742 /* terremotosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7134341B201E131F0038C742 /* terremotosTests.swift */; };
+		71343427201E131F0038C742 /* terremotosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71343426201E131F0038C742 /* terremotosUITests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		71343418201E131F0038C742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 713433FB201E131F0038C742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71343402201E131F0038C742;
+			remoteInfo = terremotos;
+		};
+		71343423201E131F0038C742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 713433FB201E131F0038C742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71343402201E131F0038C742;
+			remoteInfo = terremotos;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		C1089FA9201132C1000DDB5B /* terremotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = terremotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1089FAC201132C1000DDB5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C1089FAE201132C1000DDB5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C1089FB1201132C1000DDB5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C1089FB3201132C1000DDB5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C1089FB6201132C1000DDB5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C1089FB8201132C1000DDB5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71343403201E131F0038C742 /* terremotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = terremotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71343406201E131F0038C742 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71343408201E131F0038C742 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7134340B201E131F0038C742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7134340D201E131F0038C742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71343410201E131F0038C742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71343412201E131F0038C742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71343417201E131F0038C742 /* terremotosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = terremotosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7134341B201E131F0038C742 /* terremotosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = terremotosTests.swift; sourceTree = "<group>"; };
+		7134341D201E131F0038C742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71343422201E131F0038C742 /* terremotosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = terremotosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71343426201E131F0038C742 /* terremotosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = terremotosUITests.swift; sourceTree = "<group>"; };
+		71343428201E131F0038C742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C1089FA6201132C1000DDB5B /* Frameworks */ = {
+		71343400201E131F0038C742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71343414201E131F0038C742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7134341F201E131F0038C742 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,45 +74,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C1089FA0201132C1000DDB5B = {
+		713433FA201E131F0038C742 = {
 			isa = PBXGroup;
 			children = (
-				C1089FAB201132C1000DDB5B /* terremotos */,
-				C1089FAA201132C1000DDB5B /* Products */,
+				71343405201E131F0038C742 /* terremotos */,
+				7134341A201E131F0038C742 /* terremotosTests */,
+				71343425201E131F0038C742 /* terremotosUITests */,
+				71343404201E131F0038C742 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C1089FAA201132C1000DDB5B /* Products */ = {
+		71343404201E131F0038C742 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C1089FA9201132C1000DDB5B /* terremotos.app */,
+				71343403201E131F0038C742 /* terremotos.app */,
+				71343417201E131F0038C742 /* terremotosTests.xctest */,
+				71343422201E131F0038C742 /* terremotosUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C1089FAB201132C1000DDB5B /* terremotos */ = {
+		71343405201E131F0038C742 /* terremotos */ = {
 			isa = PBXGroup;
 			children = (
-				C1089FAC201132C1000DDB5B /* AppDelegate.swift */,
-				C1089FAE201132C1000DDB5B /* ViewController.swift */,
-				C1089FB0201132C1000DDB5B /* Main.storyboard */,
-				C1089FB3201132C1000DDB5B /* Assets.xcassets */,
-				C1089FB5201132C1000DDB5B /* LaunchScreen.storyboard */,
-				C1089FB8201132C1000DDB5B /* Info.plist */,
+				71343406201E131F0038C742 /* AppDelegate.swift */,
+				71343408201E131F0038C742 /* ViewController.swift */,
+				7134340A201E131F0038C742 /* Main.storyboard */,
+				7134340D201E131F0038C742 /* Assets.xcassets */,
+				7134340F201E131F0038C742 /* LaunchScreen.storyboard */,
+				71343412201E131F0038C742 /* Info.plist */,
 			);
 			path = terremotos;
+			sourceTree = "<group>";
+		};
+		7134341A201E131F0038C742 /* terremotosTests */ = {
+			isa = PBXGroup;
+			children = (
+				7134341B201E131F0038C742 /* terremotosTests.swift */,
+				7134341D201E131F0038C742 /* Info.plist */,
+			);
+			path = terremotosTests;
+			sourceTree = "<group>";
+		};
+		71343425201E131F0038C742 /* terremotosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71343426201E131F0038C742 /* terremotosUITests.swift */,
+				71343428201E131F0038C742 /* Info.plist */,
+			);
+			path = terremotosUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C1089FA8201132C1000DDB5B /* terremotos */ = {
+		71343402201E131F0038C742 /* terremotos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C1089FBB201132C1000DDB5B /* Build configuration list for PBXNativeTarget "terremotos" */;
+			buildConfigurationList = 7134342B201E131F0038C742 /* Build configuration list for PBXNativeTarget "terremotos" */;
 			buildPhases = (
-				C1089FA5201132C1000DDB5B /* Sources */,
-				C1089FA6201132C1000DDB5B /* Frameworks */,
-				C1089FA7201132C1000DDB5B /* Resources */,
+				713433FF201E131F0038C742 /* Sources */,
+				71343400201E131F0038C742 /* Frameworks */,
+				71343401201E131F0038C742 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,25 +142,72 @@
 			);
 			name = terremotos;
 			productName = terremotos;
-			productReference = C1089FA9201132C1000DDB5B /* terremotos.app */;
+			productReference = 71343403201E131F0038C742 /* terremotos.app */;
 			productType = "com.apple.product-type.application";
+		};
+		71343416201E131F0038C742 /* terremotosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7134342E201E131F0038C742 /* Build configuration list for PBXNativeTarget "terremotosTests" */;
+			buildPhases = (
+				71343413201E131F0038C742 /* Sources */,
+				71343414201E131F0038C742 /* Frameworks */,
+				71343415201E131F0038C742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71343419201E131F0038C742 /* PBXTargetDependency */,
+			);
+			name = terremotosTests;
+			productName = terremotosTests;
+			productReference = 71343417201E131F0038C742 /* terremotosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71343421201E131F0038C742 /* terremotosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71343431201E131F0038C742 /* Build configuration list for PBXNativeTarget "terremotosUITests" */;
+			buildPhases = (
+				7134341E201E131F0038C742 /* Sources */,
+				7134341F201E131F0038C742 /* Frameworks */,
+				71343420201E131F0038C742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71343424201E131F0038C742 /* PBXTargetDependency */,
+			);
+			name = terremotosUITests;
+			productName = terremotosUITests;
+			productReference = 71343422201E131F0038C742 /* terremotosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C1089FA1201132C1000DDB5B /* Project object */ = {
+		713433FB201E131F0038C742 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = grupoA;
 				TargetAttributes = {
-					C1089FA8201132C1000DDB5B = {
-						CreatedOnToolsVersion = 9.2;
+					71343402201E131F0038C742 = {
+						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+					};
+					71343416201E131F0038C742 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 71343402201E131F0038C742;
+					};
+					71343421201E131F0038C742 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 71343402201E131F0038C742;
 					};
 				};
 			};
-			buildConfigurationList = C1089FA4201132C1000DDB5B /* Build configuration list for PBXProject "terremotos" */;
+			buildConfigurationList = 713433FE201E131F0038C742 /* Build configuration list for PBXProject "terremotos" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +215,99 @@
 				en,
 				Base,
 			);
-			mainGroup = C1089FA0201132C1000DDB5B;
-			productRefGroup = C1089FAA201132C1000DDB5B /* Products */;
+			mainGroup = 713433FA201E131F0038C742;
+			productRefGroup = 71343404201E131F0038C742 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C1089FA8201132C1000DDB5B /* terremotos */,
+				71343402201E131F0038C742 /* terremotos */,
+				71343416201E131F0038C742 /* terremotosTests */,
+				71343421201E131F0038C742 /* terremotosUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C1089FA7201132C1000DDB5B /* Resources */ = {
+		71343401201E131F0038C742 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1089FB7201132C1000DDB5B /* LaunchScreen.storyboard in Resources */,
-				C1089FB4201132C1000DDB5B /* Assets.xcassets in Resources */,
-				C1089FB2201132C1000DDB5B /* Main.storyboard in Resources */,
+				71343411201E131F0038C742 /* LaunchScreen.storyboard in Resources */,
+				7134340E201E131F0038C742 /* Assets.xcassets in Resources */,
+				7134340C201E131F0038C742 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71343415201E131F0038C742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71343420201E131F0038C742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C1089FA5201132C1000DDB5B /* Sources */ = {
+		713433FF201E131F0038C742 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1089FAF201132C1000DDB5B /* ViewController.swift in Sources */,
-				C1089FAD201132C1000DDB5B /* AppDelegate.swift in Sources */,
+				71343409201E131F0038C742 /* ViewController.swift in Sources */,
+				71343407201E131F0038C742 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71343413201E131F0038C742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7134341C201E131F0038C742 /* terremotosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7134341E201E131F0038C742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71343427201E131F0038C742 /* terremotosUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		71343419201E131F0038C742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71343402201E131F0038C742 /* terremotos */;
+			targetProxy = 71343418201E131F0038C742 /* PBXContainerItemProxy */;
+		};
+		71343424201E131F0038C742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71343402201E131F0038C742 /* terremotos */;
+			targetProxy = 71343423201E131F0038C742 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		C1089FB0201132C1000DDB5B /* Main.storyboard */ = {
+		7134340A201E131F0038C742 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C1089FB1201132C1000DDB5B /* Base */,
+				7134340B201E131F0038C742 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C1089FB5201132C1000DDB5B /* LaunchScreen.storyboard */ = {
+		7134340F201E131F0038C742 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C1089FB6201132C1000DDB5B /* Base */,
+				71343410201E131F0038C742 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +315,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C1089FB9201132C1000DDB5B /* Debug */ = {
+		71343429201E131F0038C742 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -210,7 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -219,7 +372,7 @@
 			};
 			name = Debug;
 		};
-		C1089FBA201132C1000DDB5B /* Release */ = {
+		7134342A201E131F0038C742 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,7 +414,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -269,56 +422,136 @@
 			};
 			name = Release;
 		};
-		C1089FBC201132C1000DDB5B /* Debug */ = {
+		7134342C201E131F0038C742 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = terremotos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.grupoa.terremotos;
+				PRODUCT_BUNDLE_IDENTIFIER = grupoA.terremotos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		C1089FBD201132C1000DDB5B /* Release */ = {
+		7134342D201E131F0038C742 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = terremotos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.grupoa.terremotos;
+				PRODUCT_BUNDLE_IDENTIFIER = grupoA.terremotos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
+		7134342F201E131F0038C742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = terremotosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = grupoA.terremotosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/terremotos.app/terremotos";
+			};
+			name = Debug;
+		};
+		71343430201E131F0038C742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = terremotosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = grupoA.terremotosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/terremotos.app/terremotos";
+			};
+			name = Release;
+		};
+		71343432201E131F0038C742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = terremotosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = grupoA.terremotosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = terremotos;
+			};
+			name = Debug;
+		};
+		71343433201E131F0038C742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = terremotosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = grupoA.terremotosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = terremotos;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C1089FA4201132C1000DDB5B /* Build configuration list for PBXProject "terremotos" */ = {
+		713433FE201E131F0038C742 /* Build configuration list for PBXProject "terremotos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1089FB9201132C1000DDB5B /* Debug */,
-				C1089FBA201132C1000DDB5B /* Release */,
+				71343429201E131F0038C742 /* Debug */,
+				7134342A201E131F0038C742 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C1089FBB201132C1000DDB5B /* Build configuration list for PBXNativeTarget "terremotos" */ = {
+		7134342B201E131F0038C742 /* Build configuration list for PBXNativeTarget "terremotos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1089FBC201132C1000DDB5B /* Debug */,
-				C1089FBD201132C1000DDB5B /* Release */,
+				7134342C201E131F0038C742 /* Debug */,
+				7134342D201E131F0038C742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7134342E201E131F0038C742 /* Build configuration list for PBXNativeTarget "terremotosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7134342F201E131F0038C742 /* Debug */,
+				71343430201E131F0038C742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71343431201E131F0038C742 /* Build configuration list for PBXNativeTarget "terremotosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71343432201E131F0038C742 /* Debug */,
+				71343433201E131F0038C742 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C1089FA1201132C1000DDB5B /* Project object */;
+	rootObject = 713433FB201E131F0038C742 /* Project object */;
 }
