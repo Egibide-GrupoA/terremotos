@@ -24,3 +24,10 @@
 - Tardar mucho en cargar
 - Interfaz compleja 
 - Inicio de sesión
+
+# Referencias
+
+https://www.flaticon.com/free-icon/team_478536#term=people&page=2&position=23
+
+
+

@@ -21,6 +21,8 @@
 		C1C4DD9E20239005002C2266 /* ajustes.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C4DD9D20239005002C2266 /* ajustes.png */; };
 		C1C4DDA02023907A002C2266 /* ayuda.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C4DD9F2023907A002C2266 /* ayuda.png */; };
 		C1C4DDA2202391A4002C2266 /* lista.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C4DDA1202391A4002C2266 /* lista.png */; };
+		C1C4DDA42023931C002C2266 /* imagenes.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C4DDA32023931C002C2266 /* imagenes.xcassets */; };
+		C1C4DDAA2023ADF4002C2266 /* AyudaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C4DDA92023ADF4002C2266 /* AyudaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		C1C4DD9D20239005002C2266 /* ajustes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ajustes.png; sourceTree = "<group>"; };
 		C1C4DD9F2023907A002C2266 /* ayuda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ayuda.png; sourceTree = "<group>"; };
 		C1C4DDA1202391A4002C2266 /* lista.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lista.png; sourceTree = "<group>"; };
+		C1C4DDA32023931C002C2266 /* imagenes.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = imagenes.xcassets; sourceTree = "<group>"; };
+		C1C4DDA92023ADF4002C2266 /* AyudaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AyudaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,11 +136,13 @@
 				C1C4DD9B20238F41002C2266 /* map.png */,
 				C1C4DD9F2023907A002C2266 /* ayuda.png */,
 				C1C4DDA1202391A4002C2266 /* lista.png */,
-				C1C4DD9D20239005002C2266 /* ajustes.png */,
 				7134340F201E131F0038C742 /* LaunchScreen.storyboard */,
 				71343412201E131F0038C742 /* Info.plist */,
+				C1C4DDA32023931C002C2266 /* imagenes.xcassets */,
+				C1C4DD9D20239005002C2266 /* ajustes.png */,
 				71B8F951202397530071D0A3 /* MainTabBarController.swift */,
 				717EBFDC20239BBF00FF46B8 /* Evento.swift */,
+				C1C4DDA92023ADF4002C2266 /* AyudaViewController.swift */,
 			);
 			path = terremotos;
 			sourceTree = "<group>";
@@ -283,6 +289,7 @@
 				C1C4DDA2202391A4002C2266 /* lista.png in Resources */,
 				7134340C201E131F0038C742 /* Main.storyboard in Resources */,
 				C1C4DDA02023907A002C2266 /* ayuda.png in Resources */,
+				C1C4DDA42023931C002C2266 /* imagenes.xcassets in Resources */,
 				C1C4DD9C20238F41002C2266 /* map.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,6 +377,7 @@
 				71343409201E131F0038C742 /* ViewController.swift in Sources */,
 				71343407201E131F0038C742 /* AppDelegate.swift in Sources */,
 				71B8F952202397530071D0A3 /* MainTabBarController.swift in Sources */,
+				C1C4DDAA2023ADF4002C2266 /* AyudaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
