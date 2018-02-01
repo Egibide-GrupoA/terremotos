@@ -14,6 +14,10 @@
 		71343411201E131F0038C742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7134340F201E131F0038C742 /* LaunchScreen.storyboard */; };
 		7134341C201E131F0038C742 /* terremotosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7134341B201E131F0038C742 /* terremotosTests.swift */; };
 		71343427201E131F0038C742 /* terremotosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71343426201E131F0038C742 /* terremotosUITests.swift */; };
+		C1C4DD9C20238F41002C2266 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C4DD9B20238F41002C2266 /* map.png */; };
+		C1C4DD9E20239005002C2266 /* ajustes.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C4DD9D20239005002C2266 /* ajustes.png */; };
+		C1C4DDA02023907A002C2266 /* ayuda.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C4DD9F2023907A002C2266 /* ayuda.png */; };
+		C1C4DDA2202391A4002C2266 /* lista.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C4DDA1202391A4002C2266 /* lista.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		71343422201E131F0038C742 /* terremotosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = terremotosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71343426201E131F0038C742 /* terremotosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = terremotosUITests.swift; sourceTree = "<group>"; };
 		71343428201E131F0038C742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1C4DD9B20238F41002C2266 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		C1C4DD9D20239005002C2266 /* ajustes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ajustes.png; sourceTree = "<group>"; };
+		C1C4DD9F2023907A002C2266 /* ayuda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ayuda.png; sourceTree = "<group>"; };
+		C1C4DDA1202391A4002C2266 /* lista.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lista.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,10 @@
 				71343408201E131F0038C742 /* ViewController.swift */,
 				7134340A201E131F0038C742 /* Main.storyboard */,
 				7134340D201E131F0038C742 /* Assets.xcassets */,
+				C1C4DD9B20238F41002C2266 /* map.png */,
+				C1C4DD9F2023907A002C2266 /* ayuda.png */,
+				C1C4DDA1202391A4002C2266 /* lista.png */,
+				C1C4DD9D20239005002C2266 /* ajustes.png */,
 				7134340F201E131F0038C742 /* LaunchScreen.storyboard */,
 				71343412201E131F0038C742 /* Info.plist */,
 			);
@@ -232,9 +244,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1C4DD9E20239005002C2266 /* ajustes.png in Resources */,
 				71343411201E131F0038C742 /* LaunchScreen.storyboard in Resources */,
 				7134340E201E131F0038C742 /* Assets.xcassets in Resources */,
+				C1C4DDA2202391A4002C2266 /* lista.png in Resources */,
 				7134340C201E131F0038C742 /* Main.storyboard in Resources */,
+				C1C4DDA02023907A002C2266 /* ayuda.png in Resources */,
+				C1C4DD9C20238F41002C2266 /* map.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
