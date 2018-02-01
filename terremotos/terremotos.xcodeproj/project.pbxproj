@@ -14,6 +14,9 @@
 		71343411201E131F0038C742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7134340F201E131F0038C742 /* LaunchScreen.storyboard */; };
 		7134341C201E131F0038C742 /* terremotosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7134341B201E131F0038C742 /* terremotosTests.swift */; };
 		71343427201E131F0038C742 /* terremotosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71343426201E131F0038C742 /* terremotosUITests.swift */; };
+		71662DA31A13AD6E6D5FF92D /* Pods_terremotos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9AFFEF37236EAC7B1F1193 /* Pods_terremotos.framework */; };
+		717EBFDD20239BBF00FF46B8 /* Evento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717EBFDC20239BBF00FF46B8 /* Evento.swift */; };
+		71B8F952202397530071D0A3 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B8F951202397530071D0A3 /* MainTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A9AFFEF37236EAC7B1F1193 /* Pods_terremotos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_terremotos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71343403201E131F0038C742 /* terremotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = terremotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71343406201E131F0038C742 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71343408201E131F0038C742 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,10 @@
 		71343422201E131F0038C742 /* terremotosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = terremotosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71343426201E131F0038C742 /* terremotosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = terremotosUITests.swift; sourceTree = "<group>"; };
 		71343428201E131F0038C742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		717EBFDC20239BBF00FF46B8 /* Evento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Evento.swift; sourceTree = "<group>"; };
+		71B8F951202397530071D0A3 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		84058EA80A582636359A7262 /* Pods-terremotos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-terremotos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-terremotos/Pods-terremotos.debug.xcconfig"; sourceTree = "<group>"; };
+		BC738F5C3A1CAE8154E29041 /* Pods-terremotos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-terremotos.release.xcconfig"; path = "Pods/Target Support Files/Pods-terremotos/Pods-terremotos.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71662DA31A13AD6E6D5FF92D /* Pods_terremotos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		389E8897E1FAE86D74438E84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84058EA80A582636359A7262 /* Pods-terremotos.debug.xcconfig */,
+				BC738F5C3A1CAE8154E29041 /* Pods-terremotos.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		713433FA201E131F0038C742 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +99,8 @@
 				7134341A201E131F0038C742 /* terremotosTests */,
 				71343425201E131F0038C742 /* terremotosUITests */,
 				71343404201E131F0038C742 /* Products */,
+				389E8897E1FAE86D74438E84 /* Pods */,
+				883AFDECCF9EE80D294F1C02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +123,8 @@
 				7134340D201E131F0038C742 /* Assets.xcassets */,
 				7134340F201E131F0038C742 /* LaunchScreen.storyboard */,
 				71343412201E131F0038C742 /* Info.plist */,
+				71B8F951202397530071D0A3 /* MainTabBarController.swift */,
+				717EBFDC20239BBF00FF46B8 /* Evento.swift */,
 			);
 			path = terremotos;
 			sourceTree = "<group>";
@@ -125,6 +147,14 @@
 			path = terremotosUITests;
 			sourceTree = "<group>";
 		};
+		883AFDECCF9EE80D294F1C02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A9AFFEF37236EAC7B1F1193 /* Pods_terremotos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7134342B201E131F0038C742 /* Build configuration list for PBXNativeTarget "terremotos" */;
 			buildPhases = (
+				B0E318ACBE7DAFCCA9ADFC12 /* [CP] Check Pods Manifest.lock */,
 				713433FF201E131F0038C742 /* Sources */,
 				71343400201E131F0038C742 /* Frameworks */,
 				71343401201E131F0038C742 /* Resources */,
+				A02AA6615FDD2F2C8BBADA81 /* [CP] Embed Pods Frameworks */,
+				A0FE733389ED7A15DF467519 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +287,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A02AA6615FDD2F2C8BBADA81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-terremotos/Pods-terremotos-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-terremotos/Pods-terremotos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0FE733389ED7A15DF467519 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-terremotos/Pods-terremotos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0E318ACBE7DAFCCA9ADFC12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-terremotos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		713433FF201E131F0038C742 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				717EBFDD20239BBF00FF46B8 /* Evento.swift in Sources */,
 				71343409201E131F0038C742 /* ViewController.swift in Sources */,
 				71343407201E131F0038C742 /* AppDelegate.swift in Sources */,
+				71B8F952202397530071D0A3 /* MainTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +517,7 @@
 		};
 		7134342C201E131F0038C742 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84058EA80A582636359A7262 /* Pods-terremotos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +532,7 @@
 		};
 		7134342D201E131F0038C742 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC738F5C3A1CAE8154E29041 /* Pods-terremotos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -455,11 +550,15 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = terremotosTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = grupoA.terremotosTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/terremotos.app/terremotos";
@@ -471,11 +570,15 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = terremotosTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = grupoA.terremotosTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/terremotos.app/terremotos";
