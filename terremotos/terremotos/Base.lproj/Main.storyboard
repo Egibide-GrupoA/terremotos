@@ -249,14 +249,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="yMQ-dZ-rUR">
-                                <rect key="frame" x="30" y="551" width="315" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.34513488780000001" green="0.72504452720000001" blue="0.23345508749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </slider>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="DISTANCIA" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hGT-T8-PSy">
-                                <rect key="frame" x="142" y="519" width="90" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="DISTANCIA" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hGT-T8-PSy">
+                                <rect key="frame" x="142" y="469" width="90" height="31"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -273,8 +267,30 @@
                                     <navigationItem title="AJUSTES" id="5bV-AY-lGl"/>
                                 </items>
                             </navigationBar>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="fj3-4H-bI1">
+                                <rect key="frame" x="0.0" y="81" width="375" height="332"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1000 km" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zqk-Am-1Em">
+                                <rect key="frame" x="154" y="554" width="67" height="26"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="yMQ-dZ-rUR">
+                                <rect key="frame" x="30" y="508" width="315" height="30"/>
+                                <color key="tintColor" red="0.34513488780000001" green="0.72504452720000001" blue="0.23345508749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fRa-Kj-mdy" firstAttribute="trailing" secondItem="zqk-Am-1Em" secondAttribute="trailing" constant="154" id="Bp0-PL-tdf"/>
+                            <constraint firstItem="fRa-Kj-mdy" firstAttribute="trailing" secondItem="hGT-T8-PSy" secondAttribute="trailing" constant="143" id="FWP-gU-T7j"/>
+                            <constraint firstItem="zqk-Am-1Em" firstAttribute="leading" secondItem="fRa-Kj-mdy" secondAttribute="leading" constant="154" id="LVR-TH-JlR"/>
+                            <constraint firstItem="fRa-Kj-mdy" firstAttribute="trailing" secondItem="yMQ-dZ-rUR" secondAttribute="trailing" constant="32" id="cf9-Rj-Iwo"/>
+                            <constraint firstItem="yMQ-dZ-rUR" firstAttribute="leading" secondItem="fRa-Kj-mdy" secondAttribute="leading" constant="32" id="ilt-cm-9yb"/>
+                            <constraint firstItem="hGT-T8-PSy" firstAttribute="leading" secondItem="fRa-Kj-mdy" secondAttribute="leading" constant="142" id="tiR-FB-9Bk"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="fRa-Kj-mdy"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="ajustes" image="ajustes.png" selectedImage="ajustes.png" id="gNA-XD-shR"/>
