@@ -96,7 +96,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shopping-basket.png" translatesAutoresizingMaskIntoConstraints="NO" id="wMp-OI-luo">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="wMp-OI-luo">
                                                 <rect key="frame" x="15" y="322" width="71" height="64"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
@@ -328,6 +328,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Image" width="21" height="21"/>
         <image name="ajustes.png" width="32" height="32"/>
         <image name="ayuda.png" width="32" height="32"/>
         <image name="candle.png" width="64" height="64"/>
@@ -339,7 +340,6 @@
         <image name="icon.png" width="64" height="64"/>
         <image name="lista.png" width="32" height="32"/>
         <image name="map.png" width="32" height="32"/>
-        <image name="shopping-basket.png" width="64" height="64"/>
         <image name="smartphone.png" width="64" height="64"/>
         <image name="street-light.png" width="64" height="64"/>
         <image name="telephone.png" width="64" height="64"/>
