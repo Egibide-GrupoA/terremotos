@@ -27,8 +27,17 @@
 
 # Referencias
 
-Ventana ayuda:
-https://www.flaticon.com/free-icon/team_478536#term=people&page=2&position=23
-
-
-
+Ventana ayuda (imágenes)
+https://www.flaticon.com/free-icon/users-group_32441#term=people&page=1&position=6
+https://www.flaticon.com/free-icon/person-with-arms-outstretched_1664#term=SECURITY AREA&page=1&position=1
+https://www.flaticon.com/free-icon/install-wizard_643314#term=installation&page=1&position=12
+https://www.flaticon.com/free-icon/shopping-basket_718690#term=SHOPPING BASKET&page=1&position=24
+https://www.flaticon.com/free-icon/house_149064#term=HOME&page=1&position=8
+https://www.flaticon.com/free-icon/flash-off_61064#term=light&page=2&position=11
+https://www.flaticon.com/free-icon/street-light_691282#term=POST&page=1&position=67
+https://www.flaticon.com/free-icon/cityscape_189060#term=BUILDING&page=1&position=27
+https://www.flaticon.com/free-icon/earthquake_645712#term=natural disasters&page=1&position=18
+https://www.flaticon.com/free-icon/candle_714889#term=candle&page=1&position=46
+https://www.flaticon.com/free-icon/telephone_126341#term=phone&page=1&position=11
+https://www.flaticon.com/free-icon/smartphone_149008#term=phone&page=1&position=31
+https://www.flaticon.com/free-icon/exclamation-mark_179386#term=alert&page=1&position=8
