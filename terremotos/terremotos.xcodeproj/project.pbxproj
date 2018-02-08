@@ -35,6 +35,7 @@
 		C1F4AD7D202CB25C006D15F9 /* users-group.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F4AD7C202CB25C006D15F9 /* users-group.png */; };
 		C1F4AD7F202CBCDF006D15F9 /* install-wizard.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F4AD7E202CBCDF006D15F9 /* install-wizard.png */; };
 		C1F4AD81202CBCFF006D15F9 /* street-light.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F4AD80202CBCFE006D15F9 /* street-light.png */; };
+		C1F4AD83202CC8A8006D15F9 /* lista.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F4AD82202CC8A7006D15F9 /* lista.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		C1F4AD7C202CB25C006D15F9 /* users-group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "users-group.png"; path = "Imágenes/users-group.png"; sourceTree = SOURCE_ROOT; };
 		C1F4AD7E202CBCDF006D15F9 /* install-wizard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "install-wizard.png"; sourceTree = "<group>"; };
 		C1F4AD80202CBCFE006D15F9 /* street-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "street-light.png"; sourceTree = "<group>"; };
+		C1F4AD82202CC8A7006D15F9 /* lista.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lista.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 				C1F4AD64202CB1BC006D15F9 /* ayuda.png */,
 				C1F4AD7E202CBCDF006D15F9 /* install-wizard.png */,
 				C1F4AD6A202CB1F3006D15F9 /* cityscape.png */,
+				C1F4AD82202CC8A7006D15F9 /* lista.png */,
 				C1F4AD6E202CB21C006D15F9 /* exclamation-mark.png */,
 				C1F4AD76202CB243006D15F9 /* shopping-basket.png */,
 				C1F4AD80202CBCFE006D15F9 /* street-light.png */,
@@ -336,6 +339,7 @@
 				C1F4AD6B202CB1F3006D15F9 /* cityscape.png in Resources */,
 				C1F4AD71202CB224006D15F9 /* flash-off.png in Resources */,
 				C1F4AD67202CB1D1006D15F9 /* ajustes.png in Resources */,
+				C1F4AD83202CC8A8006D15F9 /* lista.png in Resources */,
 				C1F4AD77202CB243006D15F9 /* shopping-basket.png in Resources */,
 				C1F4AD69202CB1E0006D15F9 /* candle.png in Resources */,
 				C1F4AD81202CBCFF006D15F9 /* street-light.png in Resources */,

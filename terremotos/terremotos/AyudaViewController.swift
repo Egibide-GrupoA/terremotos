@@ -23,22 +23,29 @@ class AyudaViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBOutlet weak var durante: UIView!
+    @IBOutlet weak var antes: UIView!
+    @IBOutlet weak var despues: UIView!
+    
     // SegementControl
     @IBAction func SegeValueChange(_ sender: Any) {
-        
-        if sege.selectedSegmentIndex == 0{
-            
-        
-        }
-        
-        if sege.selectedSegmentIndex == 1{
-         
-        }
-        
-        if sege.selectedSegmentIndex == 2{
-            
-           
-            
+        switch sege.selectedSegmentIndex {
+        case 0:
+            antes.isHidden = false
+            durante.isHidden = true
+            despues.isHidden = true
+        case 1:
+            antes.isHidden = true
+            durante.isHidden = false
+            despues.isHidden = true
+        case 2:
+            antes.isHidden = true
+            durante.isHidden = true
+            despues.isHidden = false
+        default:
+            antes.isHidden = false
+            durante.isHidden = true
+            despues.isHidden = true
         }
         
     }
