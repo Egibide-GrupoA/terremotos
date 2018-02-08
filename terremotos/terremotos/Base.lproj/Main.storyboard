@@ -36,13 +36,50 @@
                                     <action selector="SegeValueChange:" destination="WL9-Wv-VRt" eventType="valueChanged" id="FdR-bF-zsx"/>
                                 </connections>
                             </segmentedControl>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sdU-vb-JRE">
-                                <rect key="frame" x="31" y="117" width="258" height="161"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="users-group.png" translatesAutoresizingMaskIntoConstraints="NO" id="EhG-7W-3xo">
+                                <rect key="frame" x="12" y="121" width="62" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="L9d-bA-6T0">
+                                <rect key="frame" x="8" y="218" width="71" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Identifica las zonas de seguridad" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="H1S-4h-8nO">
+                                <rect key="frame" x="85" y="226" width="240" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Revisa las instalaciones de gas y luz" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xKZ-R1-cgl">
+                                <rect key="frame" x="87" y="324" width="248" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Almacena alimentos no perecederos y agua" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VaG-cQ-xPy">
+                                <rect key="frame" x="87" y="430" width="248" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="exclamation-mark.png" translatesAutoresizingMaskIntoConstraints="NO" id="dGF-bB-ox3">
+                                <rect key="frame" x="8" y="314" width="71" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shopping-basket.png" translatesAutoresizingMaskIntoConstraints="NO" id="wMp-OI-luo">
+                                <rect key="frame" x="12" y="420" width="71" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Organiza  y participa en simulacros de evacuación" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="KxZ-xa-9dU">
+                                <rect key="frame" x="85" y="121" width="274" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -56,7 +93,6 @@
                     <tabBarItem key="tabBarItem" title="ayuda" image="ayuda.png" selectedImage="ayuda.png" id="HYb-gr-JvL"/>
                     <connections>
                         <outlet property="sege" destination="chv-RK-KSc" id="THb-Wm-hvr"/>
-                        <outlet property="texto" destination="sdU-vb-JRE" id="OYP-Gl-yz7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pwR-i0-qdO" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -142,7 +178,11 @@
     <resources>
         <image name="ajustes.png" width="32" height="32"/>
         <image name="ayuda.png" width="32" height="32"/>
+        <image name="exclamation-mark.png" width="64" height="64"/>
+        <image name="icon.png" width="64" height="64"/>
         <image name="lista.png" width="32" height="32"/>
         <image name="map.png" width="32" height="32"/>
+        <image name="shopping-basket.png" width="64" height="64"/>
+        <image name="users-group.png" width="64" height="64"/>
     </resources>
 </document>
