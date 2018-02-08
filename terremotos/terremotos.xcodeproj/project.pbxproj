@@ -19,7 +19,6 @@
 		71B8F952202397530071D0A3 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B8F951202397530071D0A3 /* MainTabBarController.swift */; };
 		C1C4DDA42023931C002C2266 /* imagenes.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C4DDA32023931C002C2266 /* imagenes.xcassets */; };
 		C1C4DDAA2023ADF4002C2266 /* AyudaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C4DDA92023ADF4002C2266 /* AyudaViewController.swift */; };
-		C1F4AD61202CB141006D15F9 /* Imágenes.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1F4AD60202CB141006D15F9 /* Imágenes.xib */; };
 		C1F4AD63202CB1A9006D15F9 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F4AD62202CB1A9006D15F9 /* map.png */; };
 		C1F4AD65202CB1BC006D15F9 /* ayuda.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F4AD64202CB1BC006D15F9 /* ayuda.png */; };
 		C1F4AD67202CB1D1006D15F9 /* ajustes.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F4AD66202CB1D1006D15F9 /* ajustes.png */; };
@@ -34,6 +33,8 @@
 		C1F4AD79202CB249006D15F9 /* smartphone.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F4AD78202CB249006D15F9 /* smartphone.png */; };
 		C1F4AD7B202CB255006D15F9 /* telephone.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F4AD7A202CB255006D15F9 /* telephone.png */; };
 		C1F4AD7D202CB25C006D15F9 /* users-group.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F4AD7C202CB25C006D15F9 /* users-group.png */; };
+		C1F4AD7F202CBCDF006D15F9 /* install-wizard.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F4AD7E202CBCDF006D15F9 /* install-wizard.png */; };
+		C1F4AD81202CBCFF006D15F9 /* street-light.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F4AD80202CBCFE006D15F9 /* street-light.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,7 +75,6 @@
 		BC738F5C3A1CAE8154E29041 /* Pods-terremotos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-terremotos.release.xcconfig"; path = "Pods/Target Support Files/Pods-terremotos/Pods-terremotos.release.xcconfig"; sourceTree = "<group>"; };
 		C1C4DDA32023931C002C2266 /* imagenes.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = imagenes.xcassets; sourceTree = "<group>"; };
 		C1C4DDA92023ADF4002C2266 /* AyudaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AyudaViewController.swift; sourceTree = "<group>"; };
-		C1F4AD60202CB141006D15F9 /* Imágenes.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "Imágenes.xib"; sourceTree = "<group>"; };
 		C1F4AD62202CB1A9006D15F9 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map.png; path = "Imágenes/map.png"; sourceTree = SOURCE_ROOT; };
 		C1F4AD64202CB1BC006D15F9 /* ayuda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ayuda.png; path = "Imágenes/ayuda.png"; sourceTree = SOURCE_ROOT; };
 		C1F4AD66202CB1D1006D15F9 /* ajustes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ajustes.png; path = "Imágenes/ajustes.png"; sourceTree = SOURCE_ROOT; };
@@ -89,6 +89,8 @@
 		C1F4AD78202CB249006D15F9 /* smartphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smartphone.png; path = "Imágenes/smartphone.png"; sourceTree = SOURCE_ROOT; };
 		C1F4AD7A202CB255006D15F9 /* telephone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = telephone.png; path = "Imágenes/telephone.png"; sourceTree = SOURCE_ROOT; };
 		C1F4AD7C202CB25C006D15F9 /* users-group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "users-group.png"; path = "Imágenes/users-group.png"; sourceTree = SOURCE_ROOT; };
+		C1F4AD7E202CBCDF006D15F9 /* install-wizard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "install-wizard.png"; sourceTree = "<group>"; };
+		C1F4AD80202CBCFE006D15F9 /* street-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "street-light.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,9 +161,11 @@
 				C1F4AD72202CB22D006D15F9 /* house.png */,
 				C1F4AD78202CB249006D15F9 /* smartphone.png */,
 				C1F4AD64202CB1BC006D15F9 /* ayuda.png */,
+				C1F4AD7E202CBCDF006D15F9 /* install-wizard.png */,
 				C1F4AD6A202CB1F3006D15F9 /* cityscape.png */,
 				C1F4AD6E202CB21C006D15F9 /* exclamation-mark.png */,
 				C1F4AD76202CB243006D15F9 /* shopping-basket.png */,
+				C1F4AD80202CBCFE006D15F9 /* street-light.png */,
 				C1F4AD7A202CB255006D15F9 /* telephone.png */,
 				C1F4AD74202CB238006D15F9 /* icon.png */,
 				C1F4AD7C202CB25C006D15F9 /* users-group.png */,
@@ -175,7 +179,6 @@
 				71B8F951202397530071D0A3 /* MainTabBarController.swift */,
 				717EBFDC20239BBF00FF46B8 /* Evento.swift */,
 				C1C4DDA92023ADF4002C2266 /* AyudaViewController.swift */,
-				C1F4AD60202CB141006D15F9 /* Imágenes.xib */,
 			);
 			path = terremotos;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1F4AD7F202CBCDF006D15F9 /* install-wizard.png in Resources */,
 				C1F4AD6D202CB215006D15F9 /* earthquake.png in Resources */,
 				71343411201E131F0038C742 /* LaunchScreen.storyboard in Resources */,
 				7134340E201E131F0038C742 /* Assets.xcassets in Resources */,
@@ -332,9 +336,9 @@
 				C1F4AD6B202CB1F3006D15F9 /* cityscape.png in Resources */,
 				C1F4AD71202CB224006D15F9 /* flash-off.png in Resources */,
 				C1F4AD67202CB1D1006D15F9 /* ajustes.png in Resources */,
-				C1F4AD61202CB141006D15F9 /* Imágenes.xib in Resources */,
 				C1F4AD77202CB243006D15F9 /* shopping-basket.png in Resources */,
 				C1F4AD69202CB1E0006D15F9 /* candle.png in Resources */,
+				C1F4AD81202CBCFF006D15F9 /* street-light.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
