@@ -17,6 +17,8 @@
 		71662DA31A13AD6E6D5FF92D /* Pods_terremotos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9AFFEF37236EAC7B1F1193 /* Pods_terremotos.framework */; };
 		717EBFDD20239BBF00FF46B8 /* Evento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717EBFDC20239BBF00FF46B8 /* Evento.swift */; };
 		71B8F952202397530071D0A3 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B8F951202397530071D0A3 /* MainTabBarController.swift */; };
+		C133748A2034A9E60017183D /* checkboxempty.png in Resources */ = {isa = PBXBuildFile; fileRef = C13374892034A9E60017183D /* checkboxempty.png */; };
+		C133748E2034AECD0017183D /* checkboxmarked.png in Resources */ = {isa = PBXBuildFile; fileRef = C133748D2034AECD0017183D /* checkboxmarked.png */; };
 		C1C4DDAA2023ADF4002C2266 /* AyudaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C4DDA92023ADF4002C2266 /* AyudaViewController.swift */; };
 		C1F4AD63202CB1A9006D15F9 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F4AD62202CB1A9006D15F9 /* map.png */; };
 		C1F4AD65202CB1BC006D15F9 /* ayuda.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F4AD64202CB1BC006D15F9 /* ayuda.png */; };
@@ -60,6 +62,8 @@
 		71B8F951202397530071D0A3 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		84058EA80A582636359A7262 /* Pods-terremotos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-terremotos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-terremotos/Pods-terremotos.debug.xcconfig"; sourceTree = "<group>"; };
 		BC738F5C3A1CAE8154E29041 /* Pods-terremotos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-terremotos.release.xcconfig"; path = "Pods/Target Support Files/Pods-terremotos/Pods-terremotos.release.xcconfig"; sourceTree = "<group>"; };
+		C13374892034A9E60017183D /* checkboxempty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkboxempty.png; sourceTree = "<group>"; };
+		C133748D2034AECD0017183D /* checkboxmarked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkboxmarked.png; sourceTree = "<group>"; };
 		C1C4DDA92023ADF4002C2266 /* AyudaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AyudaViewController.swift; sourceTree = "<group>"; };
 		C1F4AD62202CB1A9006D15F9 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map.png; path = "Imágenes/map.png"; sourceTree = SOURCE_ROOT; };
 		C1F4AD64202CB1BC006D15F9 /* ayuda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ayuda.png; path = "Imágenes/ayuda.png"; sourceTree = SOURCE_ROOT; };
@@ -134,6 +138,8 @@
 				C1F4AD64202CB1BC006D15F9 /* ayuda.png */,
 				C1F4AD82202CC8A7006D15F9 /* lista.png */,
 				C1F4AD62202CB1A9006D15F9 /* map.png */,
+				C13374892034A9E60017183D /* checkboxempty.png */,
+				C133748D2034AECD0017183D /* checkboxmarked.png */,
 				C1F4AD66202CB1D1006D15F9 /* ajustes.png */,
 				7134340F201E131F0038C742 /* LaunchScreen.storyboard */,
 				71343412201E131F0038C742 /* Info.plist */,
@@ -282,10 +288,12 @@
 			files = (
 				71343411201E131F0038C742 /* LaunchScreen.storyboard in Resources */,
 				7134340E201E131F0038C742 /* Assets.xcassets in Resources */,
+				C133748E2034AECD0017183D /* checkboxmarked.png in Resources */,
 				C1F4AD63202CB1A9006D15F9 /* map.png in Resources */,
 				7134340C201E131F0038C742 /* Main.storyboard in Resources */,
 				C1F4AD65202CB1BC006D15F9 /* ayuda.png in Resources */,
 				C1F4AD67202CB1D1006D15F9 /* ajustes.png in Resources */,
+				C133748A2034A9E60017183D /* checkboxempty.png in Resources */,
 				C1F4AD83202CC8A8006D15F9 /* lista.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
