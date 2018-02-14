@@ -12,6 +12,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var lbl: UILabel!
+    
+    @IBAction func slider(_ sender: UISlider) {
+        
+        lbl.text = String(sender.value)
+    }
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
