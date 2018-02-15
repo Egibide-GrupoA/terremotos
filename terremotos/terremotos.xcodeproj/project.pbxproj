@@ -20,6 +20,7 @@
 		C114B3952034B9C400863780 /* cbempty.png in Resources */ = {isa = PBXBuildFile; fileRef = C114B3942034B9C300863780 /* cbempty.png */; };
 		C114B3972034B9E400863780 /* cbmarked.png in Resources */ = {isa = PBXBuildFile; fileRef = C114B3962034B9E300863780 /* cbmarked.png */; };
 		C1C4DDAA2023ADF4002C2266 /* AyudaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C4DDA92023ADF4002C2266 /* AyudaViewController.swift */; };
+		C1EEC5F82036030900D3D13D /* AjustesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EEC5F72036030900D3D13D /* AjustesViewController.swift */; };
 		C1F4AD63202CB1A9006D15F9 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F4AD62202CB1A9006D15F9 /* map.png */; };
 		C1F4AD65202CB1BC006D15F9 /* ayuda.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F4AD64202CB1BC006D15F9 /* ayuda.png */; };
 		C1F4AD67202CB1D1006D15F9 /* ajustes.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F4AD66202CB1D1006D15F9 /* ajustes.png */; };
@@ -65,6 +66,7 @@
 		C114B3942034B9C300863780 /* cbempty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cbempty.png; sourceTree = "<group>"; };
 		C114B3962034B9E300863780 /* cbmarked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cbmarked.png; sourceTree = "<group>"; };
 		C1C4DDA92023ADF4002C2266 /* AyudaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AyudaViewController.swift; sourceTree = "<group>"; };
+		C1EEC5F72036030900D3D13D /* AjustesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjustesViewController.swift; sourceTree = "<group>"; };
 		C1F4AD62202CB1A9006D15F9 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map.png; path = "Imágenes/map.png"; sourceTree = SOURCE_ROOT; };
 		C1F4AD64202CB1BC006D15F9 /* ayuda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ayuda.png; path = "Imágenes/ayuda.png"; sourceTree = SOURCE_ROOT; };
 		C1F4AD66202CB1D1006D15F9 /* ajustes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ajustes.png; path = "Imágenes/ajustes.png"; sourceTree = SOURCE_ROOT; };
@@ -146,6 +148,7 @@
 				71B8F951202397530071D0A3 /* MainTabBarController.swift */,
 				717EBFDC20239BBF00FF46B8 /* Evento.swift */,
 				C1C4DDA92023ADF4002C2266 /* AyudaViewController.swift */,
+				C1EEC5F72036030900D3D13D /* AjustesViewController.swift */,
 			);
 			path = terremotos;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 				71343409201E131F0038C742 /* ViewController.swift in Sources */,
 				71343407201E131F0038C742 /* AppDelegate.swift in Sources */,
 				71B8F952202397530071D0A3 /* MainTabBarController.swift in Sources */,
+				C1EEC5F82036030900D3D13D /* AjustesViewController.swift in Sources */,
 				C1C4DDAA2023ADF4002C2266 /* AyudaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,10 +8,13 @@
 
 import UIKit
 
-class AyudaViewController: UIViewController {
+class AyudaViewController:
+    UIViewController {
 
     @IBOutlet weak var texto: UILabel!
     @IBOutlet weak var sege: UISegmentedControl!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
