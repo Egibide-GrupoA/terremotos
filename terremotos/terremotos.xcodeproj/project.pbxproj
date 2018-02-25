@@ -16,6 +16,9 @@
 		71343427201E131F0038C742 /* terremotosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71343426201E131F0038C742 /* terremotosUITests.swift */; };
 		71662DA31A13AD6E6D5FF92D /* Pods_terremotos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9AFFEF37236EAC7B1F1193 /* Pods_terremotos.framework */; };
 		717EBFDD20239BBF00FF46B8 /* Evento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717EBFDC20239BBF00FF46B8 /* Evento.swift */; };
+		71A091BB2042CB2200ACBF3B /* ListaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A091BA2042CB2200ACBF3B /* ListaTableViewController.swift */; };
+		71A091BF2042D85E00ACBF3B /* celdaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A091BE2042D85E00ACBF3B /* celdaTableViewCell.swift */; };
+		71A091C120431EE000ACBF3B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A091C020431EE000ACBF3B /* MapViewController.swift */; };
 		71B8F952202397530071D0A3 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B8F951202397530071D0A3 /* MainTabBarController.swift */; };
 		C1C4DDAA2023ADF4002C2266 /* AyudaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C4DDA92023ADF4002C2266 /* AyudaViewController.swift */; };
 		C1EEC5F82036030900D3D13D /* AjustesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EEC5F72036030900D3D13D /* AjustesViewController.swift */; };
@@ -59,6 +62,9 @@
 		71343426201E131F0038C742 /* terremotosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = terremotosUITests.swift; sourceTree = "<group>"; };
 		71343428201E131F0038C742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		717EBFDC20239BBF00FF46B8 /* Evento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Evento.swift; sourceTree = "<group>"; };
+		71A091BA2042CB2200ACBF3B /* ListaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaTableViewController.swift; sourceTree = "<group>"; };
+		71A091BE2042D85E00ACBF3B /* celdaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = celdaTableViewCell.swift; sourceTree = "<group>"; };
+		71A091C020431EE000ACBF3B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		71B8F951202397530071D0A3 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		84058EA80A582636359A7262 /* Pods-terremotos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-terremotos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-terremotos/Pods-terremotos.debug.xcconfig"; sourceTree = "<group>"; };
 		BC738F5C3A1CAE8154E29041 /* Pods-terremotos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-terremotos.release.xcconfig"; path = "Pods/Target Support Files/Pods-terremotos/Pods-terremotos.release.xcconfig"; sourceTree = "<group>"; };
@@ -146,6 +152,9 @@
 				C1C4DDA92023ADF4002C2266 /* AyudaViewController.swift */,
 				C1EEC5F72036030900D3D13D /* AjustesViewController.swift */,
 				C1EEC5F9203624B900D3D13D /* ListaViewController.swift */,
+				71A091BA2042CB2200ACBF3B /* ListaTableViewController.swift */,
+				71A091BE2042D85E00ACBF3B /* celdaTableViewCell.swift */,
+				71A091C020431EE000ACBF3B /* MapViewController.swift */,
 			);
 			path = terremotos;
 			sourceTree = "<group>";
@@ -378,8 +387,11 @@
 				717EBFDD20239BBF00FF46B8 /* Evento.swift in Sources */,
 				71343409201E131F0038C742 /* ViewController.swift in Sources */,
 				71343407201E131F0038C742 /* AppDelegate.swift in Sources */,
+				71A091C120431EE000ACBF3B /* MapViewController.swift in Sources */,
+				71A091BF2042D85E00ACBF3B /* celdaTableViewCell.swift in Sources */,
 				71B8F952202397530071D0A3 /* MainTabBarController.swift in Sources */,
 				C1EEC5F82036030900D3D13D /* AjustesViewController.swift in Sources */,
+				71A091BB2042CB2200ACBF3B /* ListaTableViewController.swift in Sources */,
 				C1EEC5FA203624B900D3D13D /* ListaViewController.swift in Sources */,
 				C1C4DDAA2023ADF4002C2266 /* AyudaViewController.swift in Sources */,
 			);

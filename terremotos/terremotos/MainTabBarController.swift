@@ -9,22 +9,44 @@
 import UIKit
 import Alamofire
 import SwiftyJSON
+var JSON: NSDictionary? = nil
+
+
 
 class MainTabBarController: UITabBarController {
 
     override func viewDidLoad() {
-        super.viewDidLoad()
-        
         // REF: Tamaño de la barra de navegación de iOS 11: https://chariotsolutions.com/blog/post/large-titles-ios-11/
         navigationController?.navigationBar.prefersLargeTitles = true
         
         // REF: Desactivar verificación de HTTPS: https://stackoverflow.com/a/30732693/5136913
         let url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson"
         
-        Alamofire.request(url)
+        //let URL = "https://raw.githubusercontent.com/tristanhimmelman/AlamofireObjectMapper/d8bb95982be8a11a2308e779bb9a9707ebe42ede/sample_json"
+        Alamofire.request(url, encoding: JSONEncoding.default)
             .responseJSON { response in
-                debugPrint(response)
+                //print(response)
+                //to get status code
+                if let status = response.response?.statusCode {
+                    switch(status){
+                    case 201:
+                        print("example success")
+                    default:
+                        print("error with response status: \(status)")
+                    }
+                }
+                //to get JSON return value
+                if let result = response.result.value {
+                    JSON = result as! NSDictionary
+                    for element in JSON!["features"] as! NSArray{
+                        let obj = element as! NSDictionary
+                        let obj2 = obj["properties"] as! NSDictionary
+                        print(obj2["title"])
+                    }
+                }
         }
+        super.viewDidLoad()
+
     }
 
     override func didReceiveMemoryWarning() {
