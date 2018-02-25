@@ -70,11 +70,9 @@ class MapViewController: UIViewController {
                         let obj2 = obj["properties"] as! NSDictionary
                         var obj3 = obj["geometry"] as! NSDictionary
                         var obj4 = obj3["coordinates"] as! NSArray
-                        let lon = obj4[0] as! Double
-                        print(lon)
+                        let lon = obj4[1] as! Double
 
-                        let lat = obj4[1] as! Double
-                        print(lat)
+                        let lat = obj4[0] as! Double
                         let artwork = Artwork(title: (obj2["title"] as? String)!,
                                               locationName: (obj2["place"] as? String)!,
                                               discipline: "Sculpture",
@@ -141,14 +139,5 @@ extension UIViewController: MKMapViewDelegate {
         }
         return view
     }
-    public func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
-        if control == view.rightCalloutAccessoryView{
-            // TODO: Ir a evento
-            //print(mapView.selectedAnnotations.first)
-            
-            
-            print("PULSADO") // your annotation's title
-            //Perform a segue here to navigate to another viewcontroller
-        }
-    }
+    
 }
