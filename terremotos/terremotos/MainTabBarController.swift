@@ -20,8 +20,9 @@ class MainTabBarController: UITabBarController {
         navigationController?.navigationBar.prefersLargeTitles = true
         
         // REF: Desactivar verificación de HTTPS: https://stackoverflow.com/a/30732693/5136913
+        //let url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson"
         let url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson"
-        
+
         //let URL = "https://raw.githubusercontent.com/tristanhimmelman/AlamofireObjectMapper/d8bb95982be8a11a2308e779bb9a9707ebe42ede/sample_json"
         Alamofire.request(url, encoding: JSONEncoding.default)
             .responseJSON { response in

@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -329,7 +330,6 @@
         <!--Lista-->
         <scene sceneID="YeJ-FL-jgf">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="alS-FG-sYN" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="hIO-cZ-xRg" customClass="ListaTableViewController" customModule="terremotos" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="xhf-CE-4Hd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -350,21 +350,27 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mag" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k1K-DO-zL3">
-                                            <rect key="frame" x="288" y="12" width="63" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mag" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k1K-DO-zL3">
+                                            <rect key="frame" x="317.5" y="11" width="33.5" height="22"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lugar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dhZ-bX-frP">
-                                            <rect key="frame" x="16" y="12" width="256" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lugar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dhZ-bX-frP">
+                                            <rect key="frame" x="16" y="11" width="44" height="22"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstItem="dhZ-bX-frP" firstAttribute="leading" secondItem="fPG-wE-mf2" secondAttribute="leadingMargin" id="2oX-Yh-OFb"/>
+                                        <constraint firstItem="k1K-DO-zL3" firstAttribute="top" secondItem="fPG-wE-mf2" secondAttribute="topMargin" id="6oB-43-p4o"/>
+                                        <constraint firstItem="dhZ-bX-frP" firstAttribute="top" secondItem="fPG-wE-mf2" secondAttribute="topMargin" id="ajR-EH-Dd4"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="k1K-DO-zL3" secondAttribute="trailing" constant="8" id="pm4-DO-ZVA"/>
+                                        <constraint firstItem="dhZ-bX-frP" firstAttribute="bottom" secondItem="fPG-wE-mf2" secondAttribute="bottomMargin" id="sYB-df-BAl"/>
+                                        <constraint firstItem="k1K-DO-zL3" firstAttribute="bottom" secondItem="fPG-wE-mf2" secondAttribute="bottomMargin" id="uae-x7-04i"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="lugar" destination="dhZ-bX-frP" id="wn7-qZ-ydV"/>
@@ -379,6 +385,7 @@
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Lista" image="lista.png" id="dhP-D3-ngq"/>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="alS-FG-sYN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-170.40000000000001" y="80.50974512743629"/>
         </scene>
