@@ -54,3 +54,17 @@ https://www.flaticon.com/free-icon/telephone_126341#term=phone&page=1&position=1
 https://www.flaticon.com/free-icon/smartphone_149008#term=phone&page=1&position=31
 
 https://www.flaticon.com/free-icon/exclamation-mark_179386#term=alert&page=1&position=8
+
+Ajustes:
+https://www.flaticon.com/free-icon/tools_503837
+
+Mapa:
+https://www.flaticon.com/free-icon/international-delivery_45924#term=map&page=2&position=73
+
+Lista:
+https://www.flaticon.com/free-icon/clipboard-with-a-list_68917#term=list&page=1&position=93
+
+Ayuda:
+https://www.flaticon.com/free-icon/question_743159#term=help&page=1&position=38
+
+
