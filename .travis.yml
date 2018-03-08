@@ -1,4 +1,4 @@
-before_install: cd terremotos
+before_install: cd terremotos; pod repo update
 
 osx_image: xcode9.2
 language: objective-c
