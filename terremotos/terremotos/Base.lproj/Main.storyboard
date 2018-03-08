@@ -19,18 +19,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CbI-yd-Ig3">
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CbI-yd-Ig3">
                                 <rect key="frame" x="0.0" y="27" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="barTintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <items>
                                     <navigationItem title="¿QUÉ HACER?" id="n7K-Ui-CcS"/>
                                 </items>
                             </navigationBar>
-                            <segmentedControl contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="chv-RK-KSc" colorLabel="IBBuiltInLabel-Gray">
+                            <segmentedControl contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="chv-RK-KSc" colorLabel="IBBuiltInLabel-Gray">
                                 <rect key="frame" x="0.0" y="71" width="375" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="nuE-h8-PeX"/>
+                                </constraints>
                                 <segments>
                                     <segment title="Antes"/>
                                     <segment title="Durante"/>
@@ -210,6 +211,16 @@
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="CbI-yd-Ig3" firstAttribute="trailing" secondItem="YTi-zf-TTK" secondAttribute="trailing" id="BaR-57-Tda"/>
+                            <constraint firstItem="CbI-yd-Ig3" firstAttribute="top" secondItem="YTi-zf-TTK" secondAttribute="top" constant="7" id="DF3-8E-6oL"/>
+                            <constraint firstItem="CbI-yd-Ig3" firstAttribute="leading" secondItem="YTi-zf-TTK" secondAttribute="leading" id="DIt-an-lbk"/>
+                            <constraint firstItem="chv-RK-KSc" firstAttribute="trailing" secondItem="YTi-zf-TTK" secondAttribute="trailing" constant="8" id="JCv-jg-d2m"/>
+                            <constraint firstItem="chv-RK-KSc" firstAttribute="top" secondItem="CbI-yd-Ig3" secondAttribute="bottom" id="SnM-V1-xqz"/>
+                            <constraint firstItem="chv-RK-KSc" firstAttribute="leading" secondItem="YTi-zf-TTK" secondAttribute="leading" constant="8" id="X2d-i3-vSf"/>
+                            <constraint firstItem="chv-RK-KSc" firstAttribute="trailing" secondItem="YTi-zf-TTK" secondAttribute="trailing" id="fje-dc-ywS"/>
+                            <constraint firstItem="chv-RK-KSc" firstAttribute="leading" secondItem="YTi-zf-TTK" secondAttribute="leading" id="nYW-eI-UDD"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="YTi-zf-TTK"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="ayuda" image="ayuda.png" selectedImage="ayuda.png" id="HYb-gr-JvL"/>
@@ -223,109 +234,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pwR-i0-qdO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-169" y="1013"/>
-        </scene>
-        <!--Title-->
-        <scene sceneID="39N-5k-n9Q">
-            <objects>
-                <viewController id="iZg-nI-AkU" customClass="AjustesViewController" customModule="terremotos" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="89O-nj-xoH" customClass="UITabBar">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="she-w2-dZQ">
-                                <rect key="frame" x="0.0" y="60" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="barTintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <textAttributes key="titleTextAttributes">
-                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </textAttributes>
-                                <items>
-                                    <navigationItem title="AJUSTES" id="5bV-AY-lGl"/>
-                                </items>
-                            </navigationBar>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="fj3-4H-bI1">
-                                <rect key="frame" x="0.0" y="104" width="375" height="152"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </mapView>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="5000" minValue="0.0" maxValue="10000" translatesAutoresizingMaskIntoConstraints="NO" id="bWH-TM-sxl">
-                                <rect key="frame" x="44" y="549" width="287" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="slider:" destination="vgY-HT-Es8" eventType="valueChanged" id="uw7-ym-RxL"/>
-                                </connections>
-                            </slider>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fdm-ti-qJu">
-                                <rect key="frame" x="27" y="320" width="28" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="cbempty"/>
-                                <connections>
-                                    <action selector="checkbutton2:" destination="vgY-HT-Es8" eventType="touchUpInside" id="fKX-Ho-ULA"/>
-                                    <action selector="uncheckbox:" destination="vgY-HT-Es8" eventType="touchUpInside" id="bLe-kl-fEc"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AoM-dv-kK1">
-                                <rect key="frame" x="27" y="368" width="28" height="25"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="cbempty"/>
-                                <connections>
-                                    <action selector="checkbutton3:" destination="vgY-HT-Es8" eventType="touchUpInside" id="LYm-5M-aED"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Todos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ca-YZ-TpS">
-                                <rect key="frame" x="76" y="274" width="47" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tipo de alerta" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vFe-2S-wRn">
-                                <rect key="frame" x="76" y="323" width="106" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5yS-dh-I07">
-                                <rect key="frame" x="27" y="271" width="28" height="27"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="cbmarked"/>
-                                <connections>
-                                    <action selector="checkbutton1:" destination="vgY-HT-Es8" eventType="touchUpInside" id="uuE-S0-KNg"/>
-                                    <action selector="checkbutton:" destination="vgY-HT-Es8" eventType="touchUpInside" id="1PP-HC-SKP"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5000 km" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OkX-yS-UD2">
-                                <rect key="frame" x="154" y="586" width="76" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DISTANCIA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iIo-Ba-d5c">
-                                <rect key="frame" x="144" y="523" width="86" height="20.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Magnitud" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PN9-wL-wlR">
-                                <rect key="frame" x="76" y="370" width="73" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="fRa-Kj-mdy"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="ajustes" image="ajustes.png" selectedImage="ajustes.png" id="gNA-XD-shR"/>
-                    <navigationItem key="navigationItem" title="Title" id="wvy-ED-b3V"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Jfi-1r-G2V" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="vgY-HT-Es8" userLabel="Exit" sceneMemberID="exit"/>
-            </objects>
-            <point key="canvasLocation" x="606" y="1012"/>
         </scene>
         <!--Lista-->
         <scene sceneID="YeJ-FL-jgf">
@@ -403,7 +311,6 @@
                     <connections>
                         <segue destination="tIn-bh-yL7" kind="relationship" relationship="viewControllers" id="fb6-RQ-UTA"/>
                         <segue destination="hIO-cZ-xRg" kind="relationship" relationship="viewControllers" id="zRW-mb-RBV"/>
-                        <segue destination="iZg-nI-AkU" kind="relationship" relationship="viewControllers" id="t8r-5H-L24"/>
                         <segue destination="WL9-Wv-VRt" kind="relationship" relationship="viewControllers" id="tmC-Gr-Yp4"/>
                     </connections>
                 </tabBarController>
@@ -469,11 +376,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ajustes.png" width="32" height="32"/>
         <image name="ayuda.png" width="32" height="32"/>
         <image name="candle" width="100" height="100"/>
-        <image name="cbempty" width="100" height="100"/>
-        <image name="cbmarked" width="100" height="100"/>
         <image name="cityscape" width="100" height="100"/>
         <image name="earthquake" width="100" height="100"/>
         <image name="exclamation-mark" width="100" height="100"/>

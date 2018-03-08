@@ -11,5 +11,5 @@ target 'terremotos' do
   pod 'SwiftyJSON'
   pod 'Eureka'
   pod 'HockeySDK', '~> 5.1.2'
-
+  pod 'DownPicker', '~> 0.1'
 end
