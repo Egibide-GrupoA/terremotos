@@ -66,6 +66,7 @@
 		71A091BE2042D85E00ACBF3B /* celdaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = celdaTableViewCell.swift; sourceTree = "<group>"; };
 		71A091C020431EE000ACBF3B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		71B8F951202397530071D0A3 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		71EBF2972051B8F600DE74E7 /* terremotos-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "terremotos-Bridging-Header.h"; sourceTree = "<group>"; };
 		84058EA80A582636359A7262 /* Pods-terremotos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-terremotos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-terremotos/Pods-terremotos.debug.xcconfig"; sourceTree = "<group>"; };
 		BC738F5C3A1CAE8154E29041 /* Pods-terremotos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-terremotos.release.xcconfig"; path = "Pods/Target Support Files/Pods-terremotos/Pods-terremotos.release.xcconfig"; sourceTree = "<group>"; };
 		C1C4DDA92023ADF4002C2266 /* AyudaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AyudaViewController.swift; sourceTree = "<group>"; };
@@ -155,6 +156,7 @@
 				71A091BA2042CB2200ACBF3B /* ListaTableViewController.swift */,
 				71A091BE2042D85E00ACBF3B /* celdaTableViewCell.swift */,
 				71A091C020431EE000ACBF3B /* MapViewController.swift */,
+				71EBF2972051B8F600DE74E7 /* terremotos-Bridging-Header.h */,
 			);
 			path = terremotos;
 			sourceTree = "<group>";
@@ -187,6 +189,16 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		71EBF2962051B82300DE74E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		71343402201E131F0038C742 /* terremotos */ = {
 			isa = PBXNativeTarget;
@@ -198,6 +210,8 @@
 				71343401201E131F0038C742 /* Resources */,
 				A02AA6615FDD2F2C8BBADA81 /* [CP] Embed Pods Frameworks */,
 				A0FE733389ED7A15DF467519 /* [CP] Copy Pods Resources */,
+				71EBF2952051B4F400DE74E7 /* ShellScript */,
+				71EBF2962051B82300DE74E7 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -256,6 +270,7 @@
 				TargetAttributes = {
 					71343402201E131F0038C742 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					71343416201E131F0038C742 = {
@@ -322,6 +337,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		71EBF2952051B4F400DE74E7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FILE=\"${SRCROOT}/HockeySDK-iOS/BuildAgent\"\nif [ -f \"$FILE\" ]; then\n\"$FILE\"\nfi";
+		};
 		A02AA6615FDD2F2C8BBADA81 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -350,9 +378,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-terremotos/Pods-terremotos-resources.sh",
+				$PODS_CONFIGURATION_BUILD_DIR/HockeySDK/HockeySDKResources.bundle,
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -560,11 +591,14 @@
 			baseConfigurationReference = 84058EA80A582636359A7262 /* Pods-terremotos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = terremotos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = grupoA.terremotos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "terremotos/terremotos-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -575,11 +609,13 @@
 			baseConfigurationReference = BC738F5C3A1CAE8154E29041 /* Pods-terremotos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = terremotos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = grupoA.terremotos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "terremotos/terremotos-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

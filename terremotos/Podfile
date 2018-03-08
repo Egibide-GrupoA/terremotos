@@ -10,5 +10,6 @@ target 'terremotos' do
   pod 'Alamofire', '~> 4.5'
   pod 'SwiftyJSON'
   pod 'Eureka'
+  pod 'HockeySDK', '~> 5.1.2'
 
 end
